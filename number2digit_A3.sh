@@ -1,4 +1,14 @@
 #!/bin/bash
+
+if [ $# -ne 1 ] 
+
+then
+
+echo "Usage: $0 <number>";
+
+exit
+
+fi
 echo -n "Enter number : "
 n=$1;
 len=$(echo $n | wc -c)
