@@ -11,6 +11,8 @@ test -f demo
 
 
 #   file="/home/rihu/Downloads/demo"
+
+
 #   if [ -f "$file" ]
 #   then
 #	echo "$file found."
