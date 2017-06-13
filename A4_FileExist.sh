@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "this is file search"
 file="/home/rihu/Downloads/demo"
 test -f demo
 [-f demo]
