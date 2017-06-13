@@ -4,7 +4,7 @@ then
 echo "Usage: $0 <number>"
 exit
 fi
-if ! [[ "$1" =~ ^[0-9]+$ ]]
+if ! [[ "$1" =~ ^[0-9]+$ ]] // checking whether is a integer or not
 then
 echo "integers only"
 exit 123
